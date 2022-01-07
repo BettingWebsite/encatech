@@ -1,0 +1,9 @@
+# Query: Place Bett
+# ContextLines: 1
+
+1 result - 1 file
+
+src\components\HomePage\Matchdetail.js:
+  4336  										<div className="card-header">
+  4337: 											<h6 className="card-title d-inline-block">Place Bet</h6>
+  4338  											<a className="btn btn-secondary float-right change-value" id="cng_btn_val" href="/changebuttonvalue">Change Button Value</a>

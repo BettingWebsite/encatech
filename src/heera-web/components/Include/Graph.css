@@ -1,0 +1,16 @@
+.th1 {
+  border-bottom: 0.3px solid #bbbbbb !important;
+  color: #bbbbbb;
+  font-size: 12px !important;
+}
+.td1 {
+  border-bottom: 0.3px solid #bbbbbb !important;
+  color: #bbbbbb;
+  font-size: 12px !important;
+}
+.divsmall {
+  margin-top: -150px;
+  justify-content: center;
+  text-align: center;
+  align-items: center !important;
+}

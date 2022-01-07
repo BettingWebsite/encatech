@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ENCABOOK</title>
+    <!-- Custom fonts for this template-->
+    <link rel="icon" href="/img/hari.png" />
+    <link
+      href="%PUBLIC_URL%/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Page level plugin CSS-->
+    <link
+      href="%PUBLIC_URL%/vendor/datatables/dataTables.bootstrap4.css"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template-->
+    <link href="%PUBLIC_URL%/css/sb-admin.css" rel="stylesheet" />
+
+    <link
+      href="http://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--  <link-->
+    <!--          rel="stylesheet"-->
+    <!--          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"-->
+    <!--          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"-->
+    <!--          crossorigin="anonymous"-->
+    <!--  />-->
+  </head>
+
+  <body id="page-top">
+    <div id="root"></div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="%PUBLIC_URL%/vendor/jquery/jquery.min.js"></script>
+
+    <script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="%PUBLIC_URL%/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="%PUBLIC_URL%/vendor/chart.js/Chart.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/datatables/jquery.dataTables.js"></script>
+    <script src="%PUBLIC_URL%/vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="%PUBLIC_URL%/js/sb-admin.min.js"></script>
+    <!-- Demo scripts for this page-->
+    <script src="%PUBLIC_URL%/js/demo/datatables-demo.js"></script>
+    <script src="%PUBLIC_URL%/js/demo/chart-area-demo.js"></script>
+    <script src="%PUBLIC_URL%/js/tree.js"></script>
+    <script src="http://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#close").click(function () {
+          $(".popop_boxman").hide();
+        });
+
+        setTimeout(function () {
+          $(".popop_boxman").show();
+        }, 5000);
+        var fixmeTop = $(".sidebar-right").offset().top;
+        window.onscroll = function () {
+          myFunction(fixmeTop);
+        };
+      });
+
+      function myFunction(fixmeTop) {
+        var currentScroll = $(window).scrollTop();
+
+        if (currentScroll >= fixmeTop) {
+          $(".sidebar-right").addClass("sticky");
+        } else {
+          $(".sidebar-right").removeClass("sticky");
+        }
+      }
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#inputPassword").bind("copy paste cut", function (e) {
+          e.preventDefault(); //disable cut,copy,paste
+          alert("please enter password !!");
+        });
+      });
+    </script>
+   
+    <script>
+      (function () {
+        new TvbetFrame({
+          name: stage - sandbox,
+          clientId: 3821,
+          key: "7ce8650c52b201d5383f1552c1921123548f72389783bdf306ee66da28d6dbe9",
+          iframe: "tvbetfram27.com",
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.tr1:nth-child(even) {
+  background: #bbb}
+.tr1:nth-child(odd) {background: #FFF}
+#customers {
+  font-family:sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border:1px solid #dee2e6;
+  padding: 7px;
+  font-weight: 400;
+}
+#customers td{
+font-size: 14px !important;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px !important;
+}
